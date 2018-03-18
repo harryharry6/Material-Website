@@ -1,0 +1,155 @@
+#mySidenav a {
+    position: absolute;
+    z-index: 2;
+    left: -155px;
+    transition: 0.1s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    height: 3%;
+    text-align: left;
+}
+.tab:hover {
+  left: 0px;
+}
+
+#mySidenav a:hover {
+    left: -2px;
+    text-align: right;
+}
+
+#OSB {
+    top: 0px;
+    background-color: #3b3b3b;
+}
+
+#Plywood {
+    top: 5%;
+    background-color: #555;
+}
+
+#MDF {
+    top: 10%;
+    background-color: #3b3b3b;
+}
+
+#Hardboard {
+    top: 15%;
+    background-color: #555
+}
+
+#Pine {
+    top: 20%;
+    background-color: #3b3b3b;
+}
+
+#Foamcore {
+    top: 25%;
+    background-color: #555;
+}
+
+#Cardboard {
+    top: 30%;
+    background-color: #3b3b3b;
+}
+
+
+#EPS {
+    top: 35%;
+    background-color: #555;
+}
+
+#PVC {
+    top: 40%;
+    background-color: #3b3b3b;
+}
+
+#PET {
+    top: 45%;
+    background-color: #555;
+}
+
+#Polyester {
+    top: 50%;
+    background-color: #3b3b3b;
+}
+
+#Felt {
+    top: 55%;
+    background-color: #555;
+}
+
+#Leather {
+    top: 60%;
+    background-color: #3b3b3b;
+}
+
+#Alloy {
+    top: 65%;
+    background-color: #555;
+}
+
+
+#Acrylic {
+    top: 70%;
+    background-color: #3b3b3b;
+}
+
+#Copper {
+    top: 75%;
+    background-color: #555;
+}
+
+#Rubber {
+    top: 80%;
+    background-color: #3b3b3b;
+}
+
+#Stainless {
+    top: 85%;
+    background-color: #555;
+}
+
+#RubberPet {
+    top: 90%;
+    background-color: #3b3b3b;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-image: url("/Assets/menu.png") !important;
+  background-position: center;
+  background-size: contain;
+  background-clip: border-box;
+  background-color: inherit;
+  border: none;
+  border-color: inherit;
+  width: 40px;
+  height: 40px;
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #mySidenav a {
+    left: -400px;
+    text-align: right;
+    font-size: 17px;
+    padding: 7px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    border-radius: 0 0 1px 0;
+    height: 3%;
+    text-align: left;
+    transition: 0.1s;
+
+  }
+  .menu {
+    display: block;
+  }
+}
